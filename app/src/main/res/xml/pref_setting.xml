@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="@string/pref_background_color_label"
+        android:key="@string/pref_background_color_key"
+        android:defaultValue="@bool/pref_background_color_default"
+        android:summaryOn="@string/dark"
+        android:summaryOff="@string/light"/>
+
+    <ListPreference
+        android:title="@string/pref_language_label"
+        android:entryValues="@array/language_value"
+        android:entries="@array/language_label"
+        android:key="@string/pref_language_key"
+        android:summary="%s"
+        android:defaultValue="@string/pref_language_english_value"/>
+
+</PreferenceScreen>

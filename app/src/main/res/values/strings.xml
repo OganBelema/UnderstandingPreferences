@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Understanding Preferences</string>
+    <string name="action_setting">Settings</string>
+    <string name="pref_language_label">Choose Language</string>
+    <string name="pref_language_key" translatable="false">language</string>
+    <string name="pref_language_english_label">English</string>
+    <string name="pref_language_french_label">French</string>
+    <string name="pref_language_english_value">english</string>
+    <string name="pref_language_french_value">french</string>
+    <string name="pref_language_italian_label">Italian</string>
+    <string name="pref_language_italian_value">italian</string>
+    <string name="hello_world_english">Hello World!</string>
+    <string name="hello_world_french">Bonjour le monde!</string>
+    <string name="hello_world_italian">Ciao mondo!</string>
+    <string name="pref_background_color_label">Darken Color</string>
+    <string name="pref_background_color_key" translatable="false">background_color</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+</resources>
